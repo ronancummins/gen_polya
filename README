@@ -1,7 +1,9 @@
 This contains all the code and data needed to replicate the results of :
 
 
-
+Modelling Word Burstiness in Natural Language: 
+A Generalised Polya Process for Document Language Models in Information Retrieval
+by Ronan Cummins
 
 
 
@@ -119,7 +121,20 @@ background parameters.
 Retrieval Effectiveness of Different Models
 --------------------------------------------------------------------------------
 
-java -cp .:../../lib/* polya.Retrieval ../../data/cran/CRAN.PREP ../../data/cran/CRAN.QRY.PREP ../../tests/cran/docms/cran-gen-2.stats ../../tests/cran/background/cran-gen-2.stats ../../data/cran/CRAN.REL.PREP 0
+To evaluate a model that you have estimated using MCMC. You can use the Retrieval.class as follows:
+
+java -cp .:./lib/* polya.Retrieval ./data/med/MED.PREP ./data/med/MED.QRY.PREP ./results/med/docms/med-gen-1.stats ./results/med/background/med-gen-1.stats ./data/med/MED.REL.PREP 0
+
+This example uses the parameters in docms/med-gen-1.stats and background/med-gen-1.stats to 
+rank documents for the queries in ./data/med/MED.QRY.PREP. The MAP of the queries is output. 
+
+When the final command-line arg is set to 1 the model is a multinomial with mle and dirichlet 
+priors (stats files are ignored). When the model is set to 2 the stats files are used and the 
+document mass (m_d) is set to the length of the document (this is to be used with the multinomial 
+estimates in med-mult-1.stats).
+
+
+
 
 
 
