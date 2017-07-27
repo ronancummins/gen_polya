@@ -1,0 +1,225 @@
+.I 1	what similar law must obei when construct aeroelast model heat high speed aircraft 
+.I 2	what structur aeroelast problem associ flight high speed aircraft 
+.I 3	what problem heat conduct composit slab have been solv far 
+.I 4	can criterion develop show empir valid flow solut chemic react mixtur base simplifi assumpt instantan local chemic equilibrium 
+.I 5	what chemic kinet system applic hyperson aerodynam problem 
+.I 6	what theoret experiment guid have turbul couett flow behaviour 
+.I 7	possibl relat avail pressur distribut ogiv forebodi zero angl attack lower surfac pressur equival ogiv forebodi angl attack 
+.I 8	what method dash exact approxim dash present avail predict bodi pressur angl attack 
+.I 9	paper intern slip flow heat transfer studi 
+.I 10	real transport properti air avail over wide rang enthalpi densiti 
+.I 11	possibl find analyt similar solut strong blast wave problem newtonian approxim 
+.I 12	how can aerodynam perform channel flow ground effect machin calcul 
+.I 13	what basic mechan transon aileron buzz 
+.I 14	paper shock sound wave interact 
+.I 15	materi properti photoelast materi 
+.I 16	can transvers potenti flow about bodi revolut calcul effici electron comput 
+.I 17	can three dimension problem transvers potenti flow about bodi revolut reduc two dimension problem 
+.I 18	experiment pressur distribut bodi revolut angl attack avail 
+.I 19	doe exist good basic treatment dynam entri combin consider realist effect rel simplic result 
+.I 20	anyon formal determin influenc joul heat produc induc current magnetohydrodynam free convect flow under gener condit 
+.I 21	why doe compress transform fail correl high speed data helium air 
+.I 22	did anyon els discov turbul skin friction over sensit natur variat viscos temperatur 
+.I 23	what progress been made research unsteadi aerodynam 
+.I 24	what factor which influenc time requir invert larg structur matric 
+.I 25	doe practic flow follow theoret concept interact between adjac blade row superson cascad 
+.I 26	what singl approxim formula displac thick laminar boundari layer compress flow flat plate 
+.I 27	how design ring part ring wing linear theori affect thick 
+.I 28	what applic linear theori design curv wing 
+.I 29	what effect cross section shape flow over simpl delta wing sharp lead edg 
+.I 30	paper flow visual slender conic wing 
+.I 31	what size end plate can safe simul two dimension flow condit over bluff cylindr bodi finit aspect ratio 
+.I 32	find approxim correct thick slender thin wing theori 
+.I 33	how interfer free longitudin stabil measur made free flight model compar similar measur made low blockag wind tunnel 
+.I 34	have wind tunnel interfer effect been investig systemat basi 
+.I 35	ani paper deal acoust wave propag react gase 
+.I 36	anyon investig relax effect gaseou heat transfer suddenli heat wall 
+.I 37	ani theoret method predict base pressur 
+.I 38	doe transit hyperson wake depend bodi geometri size 
+.I 39	how can detect transit phenomena boundari layer 
+.I 40	how can detect transit phenomena hyperson wake 
+.I 41	anyon investig develop simpl model vortex wake behind cruciform wing 
+.I 42	what criterion transon flow around airfoil round lead edg validli analyz linear transon flow theori 
+.I 43	can transon flow around arbitrari smooth thin airfoil analys simpl approxim wai 
+.I 44	what detail rigor kinet theori gase chapman enskog theori 
+.I 45	anyon investig effect surfac mass transfer hyperson viscou interact 
+.I 46	what combin effect surfac heat mass transfer hyperson flow 
+.I 47	what exist solut hyperson viscou interact over insul flat plate 
+.I 48	what control lead edg attach transon speed 
+.I 49	can three point boundari valu problem blasiu equat integr numer suitabl transform without iter boundari condit 
+.I 50	what effect small amount rarefact characterist boundari layer slender bodi revolut 
+.I 51	what avail inform pertain boundari layer veri slender bodi revolut continuum flow transvers curvatur effect 
+.I 52	what avail inform pertain effect slight rarefact boundari layer flow slip effect 
+.I 53	what investig have been made flow field about bodi move through rarefi partial ioniz presenc magnet field 
+.I 54	how heat transfer downstream mass transfer region effect mass transfer nose blunt cone 
+.I 55	what extent can avail inform incompress boundari layer appli problem involv compress boundari layer 
+.I 56	what extent can readili avail steadi state aerodynam data util predict lift surfac flutter characterist 
+.I 57	what signific steadi non steadi flow characterist which affect flutter mechan 
+.I 58	possibl determin rate forc convect heat transfer from heat cylind non circular cross section fluid flow along gener 
+.I 59	how much known about boundari layer flow along non circular cylind 
+.I 60	ani simpl practic method numer integr mix problem blasiu problem three point boundari condit 
+.I 61	doe exist close form express local heat transfer around yaw cylind 
+.I 62	how far around cylind under what condit flow ani veloc just outsid boundari layer linear function distanc around cylind 
+.I 63	where can find pressur data surfac swept cylind 
+.I 64	can't static deflect shape predict flutter place vibrat shape can provid justif mean exampl 
+.I 65	doe boundari layer flat plate shear flow induc pressur gradient 
+.I 66	can procedur match inner outer solut viscou flow problem appli when main stream shear flow 
+.I 67	can seri expans found boundari layer flat plate shear flow 
+.I 68	what possibl techniqu avail comput inject distribut correspond isotherm transpir cool hemispher 
+.I 69	what known regard asymptot solut exact boundari layer equat 
+.I 70	previou solut boundari layer similar equat 
+.I 71	experiment result hyperson viscou interact 
+.I 72	what been done about viscou interact rel low reynold number flow particularli high mach number 
+.I 73	what role doe effect chemic reaction particularli when out equilibrium plai similitud law govern hyperson flow over slender aerodynam bodi 
+.I 74	how signific possibl pressur dissoci free stream respect realiz hyperson simul high enthalpi wind tunnel 
+.I 75	discrep among current analys vortic effect stagnat point heat transfer result primarili from differ viscos temperatur law assum 
+.I 76	how far can trust linear viscos temperatur solut assum some analys hyperson shock layer low reynold number 
+.I 77	how close comparison shock layer theori exist experi low reynold number merg layer regim 
+.I 78	anyon explain kink surg line multi stage axial compressor 
+.I 79	have ani aerodynam deriv been measur hyperson mach number comparison been made theoret work 
+.I 80	method measur aerodynam deriv avail which could adopt short run time facil 
+.I 81	what wind tunnel correct two dimension aerofoil mount off centr tunnel 
+.I 82	how kuchemann multhopp method calcul lift distribut swept wing subson flow compar each other experi 
+.I 83	what present state theori quasi conic flow 
+.I 84	refer method avail accur estim aerodynam heat transfer conic bodi both laminar turbul flow 
+.I 85	what paramet can serious influenc natur transit from laminar turbul flow model wind tunnel 
+.I 86	can satisfactori experiment techniqu develop measur oscillatori deriv slender sting mount model superson wind tunnel 
+.I 87	what effect boundari layer modifi basic inviscid flow behind shock neglect effect lead edg corner 
+.I 88	how doe satellit orbit contract under action air drag atmospher which scale height vari altitud 
+.I 89	how flow transon speed about delta wing differ from close relat taper sweptback wing 
+.I 90	recent data shock induc boundari layer separ 
+.I 91	what interfer effect like transon speed 
+.I 92	given complet freedom design airplan what procedur would order minim sonic boom intens limit degre minim can accomplish 
+.I 93	can methan air combust product hyperson test medium predict within experiment accuraci result obtain air 
+.I 94	what theoret heat transfer rate stagnat point blunt bodi 
+.I 95	what theoret heat transfer distribut around hemispher 
+.I 96	anyon investig unsteadi lift distribut finit wing subson flow 
+.I 97	what inform avail dynam respons airplan gust blast subson regim 
+.I 98	forward apex locat control effect low subson speed how compar convent trail edg flap 
+.I 99	given uncontrol vehicl tumbl enter atmospher possibl predict when how stop tumbl subsequ motion 
+.I 100	what effect initi imperfect elast buckl cylindr shell under axial compress 
+.I 101	why doe increment theori deform theori plastic stress strain relationship differ greatli when appli stabil problem 
+.I 102	basic dynam characterist structur continu over mani span 
+.I 103	inform buckl sandwich sphere avail 
+.I 104	can load deform characterist beam obtain materi inelast non uniform temperatur present 
+.I 105	what effect intern liquid column breath vibrat cylindr shell 
+.I 106	experiment techniqu shell vibrat 
+.I 107	summar theoret experiment work behaviour typic aircraft structur nois environ possibl develop design procedur 
+.I 108	what data fatigu structur under acoust load 
+.I 109	panel subject aerodynam heat 
+.I 110	can increas edg load plate beyond critic valu buckl chang buckl mode 
+.I 111	have effect elast edg restraint been consid previou paper panel flutter 
+.I 112	solut clamp plate problem classic theori bend been reduc two success membran boundari valu problem 
+.I 113	what data exist oscillatori aerodynam forc control surfac transon mach number 
+.I 114	like airforc wing gener planform oscil transon flow can determin pure analyt method possibl determin airforc singl particular planform rectangular method 
+.I 115	problem similar repres investig aeroelast effect heat flow intract previou investig impli 
+.I 116	what magnitud distribut lift over cone cylindr portion cone cylind configur 
+.I 117	ani inform how addit boat tail affect normal forc bodi variou angl incid 
+.I 118	what aerodynam interfer effect fin lift bodi lift fin bodi combin 
+.I 119	what effect initi axisymmetr deviat from circular non linear larg deflect load deflect respons cylind under hydrostat pressur 
+.I 120	previou analys circumferenti thermal buckl circular cylindr shell unnecessarili involv even inaccur due assum form buckl mode 
+.I 121	what paper deal circumferenti buckl either thermal buckl due mechan load 
+.I 122	what analyt investig have been made stabil conic shell how result compar experi 
+.I 123	ani work been done determin natur compress viscou flow straight channel 
+.I 124	what area other than low densiti wind tunnel flow viscou compress flow slender channel problem what analyt investig have been made stabil conic shell how result compar experi 
+.I 125	jet interfer superson flow dash experiment paper 
+.I 126	thrust vector control fluid inject dash paper 
+.I 127	possibl obtain reason simpl analyt solut heat equat exponenti time heat input 
+.I 128	anyon program pump design method high speed digit comput 
+.I 129	anyon deriv simplifi pump design equat from fundament three dimension equat incompress nonvisc flow 
+.I 130	what flutter characterist expos skin panel vertic stabil when subject aerodynam heat 
+.I 131	what agreement found between theoret predict instabl time experiment measur collaps time compress column creep 
+.I 132	theoret studi creep buckl 
+.I 133	experiment studi creep buckl 
+.I 134	possibl correl result creep buckl wide differ structur within framework singl theori 
+.I 135	what experiment result creep buckl column 
+.I 136	what result creep buckl round tube under extern pressur 
+.I 137	have ani analyt studi been conduct time failur mechan associ creep collaps long circular cylindr shell which exhibit both primari secondari creep well elast deform under variou distribut forc system 
+.I 138	effect initi stress frequenc vibrat circular cylindr shell been investig 
+.I 139	effect chang initi pressur due deform frequenc vibrat circular cylindr shell been investig 
+.I 140	what discontinu stress junction pressur structur 
+.I 141	what analyt solut avail stress edg load shell revolut 
+.I 142	what dome contour minim discontinu stress when closur cylindr pressur vessel 
+.I 143	what gener solut stress pressur shell revolut avail 
+.I 144	can studi pure membran cylind have wall bend stiff maintain shape virtu intern pressur provid ani insight behaviour pressur cylind finit wall stiff 
+.I 145	what best experiment data classic small deflect theori analys avail pressur cylind bend 
+.I 146	doe membran theori exist which behaviour pressur membran cylind bend can predict 
+.I 147	what equat which defin stabil simpli support corrug core sandwich cylind 
+.I 148	paper small deflect theori buckl sandwich cylind 
+.I 149	anyon develop analysi which accur establish larg deflect behaviour conic shell 
+.I 150	what magnitud second order wing bodi interfer high superson mach number 
+.I 151	what best theoret method calcul pressur surfac wing alon 
+.I 152	how can effect boundari layer wing pressur calcul what magnitud 
+.I 153	how should navier stoke differ equat solv 
+.I 154	which iter method solv linear ellipt differ equat most rapidli converg 
+.I 155	technic report measur ablat dure flight 
+.I 156	what qualit quantit materi avail ablat materi research 
+.I 157	have flow field been calcul blunt nose bodi compar experi wide rang free stream condit bodi shape 
+.I 158	what avail properti high temperatur air 
+.I 159	what magnitud aerodynam damp flexibl vibrat mode slender bodi revolut characterist launch vehicl 
+.I 160	compress circumferenti stress torispher shell reveal possibl buckl under intern pressur anyon investig which rang shell paramet stress suffici larg caus elast buckl 
+.I 161	integr method give singl suffici accur method calcul laminar separ point variou incompress compress boundari layer zero heat transfer 
+.I 162	what accur exact solut laminar separ point variou incompress compress boundari layer zero heat transfer avail 
+.I 163	can hyperson similar result appli techniqu predict surfac pressur ogiv forebodi angl attack 
+.I 164	what determin onset shock induc boundari layer separ 
+.I 165	stabl profil compress boundari layer induc move wave known 
+.I 166	experiment result stabil compress boundari layer induc move wave 
+.I 167	exact solut method calcul abl mass loss materi ablat high temperatur hyperson flight environ 
+.I 168	what approxim solut known direct problem transon flow throat nozzl find flow given nozzl 
+.I 169	what approxim solut known indirect problem transon flow throat nozzl find nozzl which given axial veloc distribut 
+.I 170	why user orthodox pitot static tube often find calibr appear significantli differ from those formerli specifi wildli variabl low reynold number 
+.I 171	comparison been made between interfer free drag measur free flight model similar measur made low blockag wind tunnel 
+.I 172	solut blasiu problem three point boundari condit 
+.I 173	refer lyapunov method stabil linear differenti equat period coeffici 
+.I 174	obtain all paper report contain shock detach distanc data 
+.I 175	work flow channel low reynold number 
+.I 176	some approxim analyt heat conduct solut method other than biot principl 
+.I 177	what mode stall can expect each stage axial compressor 
+.I 178	criterion been establish determin axial compressor choke line 
+.I 179	theori quasi conic flow been develop superson linearis theori which upwash distribut lift surfac apart from homogen function ordin permit have quit gener function form 
+.I 180	how doe scale height vari altitud atmospher 
+.I 181	jet interfer superson flow theoret paper 
+.I 182	effect lead edg blunt flutter characterist some squar planform doubl wedg airfoil mach number less than 
+.I 183	what factor have been shown have primari influenc sonic boom strength 
+.I 184	work small oscil entri motion 
+.I 185	experiment studi panel flutter 
+.I 186	how can wing bodi flow field interfer effect approxim ration 
+.I 187	anyon analyt experiment investig effect intern pressur buckl circular cylindr shell under bend 
+.I 188	what theoret experiment work been done excit respons typic structur nois environ 
+.I 189	design method calcul thermal fatigu endur compon variou type size varieti circumst 
+.I 190	analysi panel flutter base arbitrarili assum mode deform prove satisfactori what minimum number mode need consid 
+.I 191	what criterion true panel flutter oppos small amplitud vibrat aris from acoust disturb 
+.I 192	paper deal uniformli load sector 
+.I 193	gener method solv clamp plate problem 
+.I 194	how can analyt solut buckl strength uniform circular cylind load axial compress refin lower buckl load 
+.I 195	problem buckl strength uniform circular cylind load axial compress doe linear solut help improv non linear 
+.I 196	problem similar repres investig aeroelast effect flow absenc heat effect 
+.I 197	how fatigu damag estim normal long hand method 
+.I 198	ani inform avail differ effect variou edg condit buckl cylindr shell 
+.I 199	have non linear larg deflect analys been conduct shell shape other than conic 
+.I 200	asymptot method suffici accur determin pre buckl stress torispher shell must resort numer method 
+.I 201	what nonequilibrium chemic constitu viscou shock layer ahead blunt entri vehicl 
+.I 202	how accur exist analyt theori estim pressur distribut cone incid hyperson speed 
+.I 203	simpl empir method ani estim pressur distribut cone 
+.I 204	viscou effect serious modifi pressur distribut 
+.I 205	anyon investig theoret whether surfac flexibl can stabil laminar boundari layer 
+.I 206	how subson transon flutter data measur new langlei transon dynam tunnel compar similar data obtain other facil 
+.I 207	how larg chang new mass ratio quantit affect wing flutter boundari 
+.I 208	what effect shape drag polar lift spacecraft amount reduct maximum deceler obtain continu vari aerodynam coeffici dure entri 
+.I 209	what physic signific characterist separ laminar turbul boundari layer flow 
+.I 210	anyon analyt investig stabil influenc soft elast core buckl strength cylindr shell subject non uniform extern pressur 
+.I 211	what paper avail buckl empti cylindr shell under non uniform pressur 
+.I 212	what effect thermal stress have compress buckl strength ring stiffen cylind 
+.I 213	what effect cylind buckl circumferenti stress system vari axial direct 
+.I 214	can non linear shallow shell analysi reduc engin techniqu matrix 
+.I 215	possibl predict shape shroud which allow simul nose region flow field sphere hyperson flow 
+.I 216	what investig have been made wave system creat static pressur distribut over liquid surfac 
+.I 217	anyon investig effect shock gener vortic heat transfer blunt bodi 
+.I 218	what heat transfer blunt bodi absenc vortic 
+.I 219	what gener effect flow field when reynold number small 
+.I 220	find calcul procedur applic all incompress laminar boundari layer flow problem have good accuraci reason comput time 
+.I 221	paper applic problem calcul procedur laminar incompress flow arbitrari pressur gradient 
+.I 222	anyon investig shear buckl stiffen plate 
+.I 223	paper shear buckl unstiffen rectangular plate under shear 
+.I 224	practic how close realiti assumpt flow hyperson shock tube nitrogen non viscou thermodynam equilibrium 
+.I 365	what design factor can control lift drag ratio mach number abov 

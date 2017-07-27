@@ -1,0 +1,134 @@
+This contains all the code and data needed to replicate the results of :
+
+
+
+
+
+
+--------------------------------------------------------------------------------
+Data
+--------------------------------------------------------------------------------
+The data directory contains the cisi, cran, and medline collections in the format needed.
+The formats needed for each collection are indicated by a .PREP extension. 
+For example, for the medline collection the files needed are:
+
+/data/med/MED.PREP 
+/data/med/MED.QRY.PREP
+/data/med/MED.REL.PREP
+
+which contain the collection, queries, and qrels respectively. 
+
+
+
+--------------------------------------------------------------------------------
+Background Parameter Estimation Using Metropolis-Hastings MCMC
+--------------------------------------------------------------------------------
+
+Parameter statistics are printed to stderr (these are bayesian estimates, i.e. the posterior expectation)
+Output information is printed to stdout
+
+Usage:
+For example, to estimate the V (# vocabulary) DCM parameters of a background 
+model using Metropolis-Hastings MCMC with variance 0.01 and 500000 samples (discarding 
+the first 50000), type the following:
+
+>java -cp .:../../lib/* polya/PolyaMCMC ../../data/med/MED.PREP 1 0.01 500000 50000 1 > out 2> stats
+
+The output of stats should be as follows:
+
+correl	4.127939070956718	7.774517898074407E-4	75	55	1.3636363636363635	1.0
+between	13.814235749584247	0.002601758922242778	246	179	1.3743016759776536	1.0
+matern	2.209948178513657	4.162193620675054E-4	52	21	2.4761904761904763	1.0
+fetal	2.035460819065667	3.833565926395221E-4	47	21	2.238095238095238	1.0
+plasma	8.566553697754598	0.0016134158935774401	175	71	2.464788732394366	1.0
+
+where the columns mean the following:
+
+word	parameter_estimate	init_probability	freq	doc_freq	freq/doc_freq	burstiness
+
+(Note: The init_probability are simply the normalised parameter_estimate values)
+
+another example using the generalised polya for a background model is:
+>java -cp .:../../lib/* polya/PolyaMCMC ../../data/med/MED.PREP 2 0.01 500000 50000 1 > out 2> stats
+gives output for stats as follows: 
+
+correl	10.4098355642822	7.9072442297798E-4	75	55	1.3636363636363635	73.91080341706618
+between	37.46134667209387	0.0028455398308985702	246	179	1.3743016759776536	54.46062191031703
+matern	4.100357499504075	3.114605219052141E-4	52	21	2.4761904761904763	143.13107322768428
+fetal	3.90175879177152	2.963750916305212E-4	47	21	2.238095238095238	174.3627975894169
+plasma	13.932820668404691	0.0010583281085900266	175	71	2.464788732394366	160.58493003726713
+
+(Note: I've found a variance of 0.01 gives a good acceptance rate for the MCMC (i.e. about 0.234)
+for background models of this size (med, cisi, cran). )
+
+
+--------------------------------------------------------------------------------
+Document Specific Parameter Estimation Using Metropolis-Hastings MCMC
+--------------------------------------------------------------------------------
+
+Once background models have been estimated one can estimate document specific models.
+For example, to estimate the DCM document models:
+
+java -cp .:../../lib/* polya.PolyaMCMC ../../data/med/MED.PREP 1 0.25 200000 20000 0 
+
+or to estimate the more generalised polya with term-specific burstiness (estimated from the background collection):
+
+java -cp .:../../lib/* polya.PolyaMCMC ../../data/med/MED.PREP 2 0.25 200000 20000 0 ../../results/med/background/med-gen-1.stats
+
+
+These output the same format as above (for the background models) except blank line seperates documents. 
+This is sample output from three documents for a DCM distribution (the third column is normalised per document): 
+
+upon	760067.5815465429	0.029169159934036612	2	1	2.0	1.0
+veri	265247.7687692078	0.010179429799692889	1	1	1.0	1.0
+were	282880.3615753978	0.010856116889239549	1	1	1.0	1.0
+wherea	267198.06057454896	0.010254276267256054	1	1	1.0	1.0
+
+abrupt	32.679223304204776	0.006016499724982662	1	1	1.0	1.0
+acid	37.78652314776403	0.006956793434479256	1	1	1.0	1.0
+after	96.47650582187546	0.017762076697517972	2	1	2.0	1.0
+
+increas	88.46693643283908	0.016287452543272345	2	1	2.0	1.0
+level	35.514879645774535	0.0065385661596829205	1	1	1.0	1.0
+life	334.63425176517615	0.061608774020523005	6	1	6.0	1.0
+liver	151.69854845534692	0.027928885168590562	3	1	3.0	1.0
+
+
+(Note: I've found a variance of 0.25 gives a good acceptance rate for the MCMC (i.e. about 0.234)
+for document models of this size (med, cisi, cran).)
+
+
+--------------------------------------------------------------------------------
+Existing Results
+--------------------------------------------------------------------------------
+
+Current results on all three collections (med, cisi, and cran) are available in
+
+./results/med/background
+./results/med/docms
+./results/cisi/background
+./results/cisi/docms
+./results/cran/background
+./results/cran/docms
+
+where /docms/ stores the document model parameters and /background/ stores the
+background parameters. 
+
+
+--------------------------------------------------------------------------------
+Retrieval Effectiveness of Different Models
+--------------------------------------------------------------------------------
+
+java -cp .:../../lib/* polya.Retrieval ../../data/cran/CRAN.PREP ../../data/cran/CRAN.QRY.PREP ../../tests/cran/docms/cran-gen-2.stats ../../tests/cran/background/cran-gen-2.stats ../../data/cran/CRAN.REL.PREP 0
+
+
+
+
+
+
+
+
+
+
+
+
